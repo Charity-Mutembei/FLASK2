@@ -1,4 +1,4 @@
-from Instance.config import MOVIE_API_KEY
+from instance.config import MOVIE_API_KEY
 
 
 class Config:
