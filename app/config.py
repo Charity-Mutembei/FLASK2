@@ -1,8 +1,11 @@
+from Instance.config import MOVIE_API_KEY
+
+
 class Config:
     '''
     General configuration parent class
     '''
-    pass
+    MOVIE_API_BASE_URL ='https://newsapi.org/v2/everything/{}?api_key={}'
 
 class ProdConfig (Config):
     '''
@@ -10,7 +13,7 @@ class ProdConfig (Config):
     Args:
         Config: the parent configuration class with general configuration settings
     '''
-    pass
+    
 class DevConfig(Config):
     '''
     Development configuration child class
