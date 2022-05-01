@@ -7,7 +7,7 @@ def index():
     '''
     View root page function that returns the index page and its data
     '''
-    title = 'Home - Welcome to NewsToday website. Catch up with what is around you anywhere'
+    title = 'Home - Catch up with what is around you anywhere'
 
     return render_template('index.html', title = title)
 @app.route('/newstoday/<news_id>')
